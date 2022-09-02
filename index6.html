@@ -18,41 +18,41 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section>
-        <h2><a id="about_us">About us</a></h2>
+    <section id="about_us">
+        <h2>About us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil odio aliquid corrupti earum nisi
             enim nesciunt hic nam, assumenda excepturi aliquam debitis aut sunt maiores impedit beatae quas incidunt.
         </p>
     </section>
-    <section>
-        <h2><a id="skills">Skills</a></h2>
+    <section id="skills">
+        <h2>Skills</h2>
         <div class="skill">
-            <h4>Speed</h4>
+            <h3>Speed</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, sequi! Unde sint eos magnam? Ipsum,
                 facilis dolores deserunt fugiat sit inventore minima, autem maiores impedit enim ipsam quas quisquam
                 incidunt.</p>
         </div>
         <div class="skill">
-            <h4>Agilty</h4>
+            <h3>Agilty</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, sequi! Unde sint eos magnam? Ipsum,
                 facilis dolores deserunt fugiat sit inventore minima, autem maiores impedit enim ipsam quas quisquam
                 incidunt.</p>
         </div>
         <div class="skill">
-            <h4>Resistance</h4>
+            <h3>Resistance</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, sequi! Unde sint eos magnam? Ipsum,
                 facilis dolores deserunt fugiat sit inventore minima, autem maiores impedit enim ipsam quas quisquam
                 incidunt.</p>
         </div>
         <div class="skill">
-            <h4>Power</h4>
+            <h3>Power</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, sequi! Unde sint eos magnam? Ipsum,
                 facilis dolores deserunt fugiat sit inventore minima, autem maiores impedit enim ipsam quas quisquam
                 incidunt.</p>
         </div>
     </section>
-    <section>
-        <h2><a id="portfolio">Portfolio</a></h2>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
         <div class="portfolio-item">
             <img src="indeks.jpg" alt="Speed">
 
@@ -66,16 +66,20 @@
 
         </div>
     </section>
-    <section>
-        <h2><a id="contact">Jan Kowalski</a></h2>
+    <section id="contact">
+        <h2>Jan Kowalski</h2>
         <footer>Ul. Mostowa 6 Lok. 13<br>
             31-061 Kraków <br>
             Polska</footer>
-        <h4>Send us message</h4>
+        <h3>Send us message</h3>
         <form>
-            <input required><br>
-            <input required><br>
-            <input required><br>
+            <label for="name">Imię</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="topic">Temat</label><br>
+            <input type="text" id="topic" name="topic" required><br>
+            <label for="message">Wiadomość</label><br>
+            <input type="text" id="message" name="message" required ><br>
+            <br>
             <input type="submit" value="Wyślij">
         </form>
     </section>
